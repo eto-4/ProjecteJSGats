@@ -142,7 +142,7 @@ main {
 .tns-nav {
   display: flex;
   position: absolute;
-  bottom: 18rem;
+  bottom: 21em;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
