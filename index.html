@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="src/assets/img/javascript_icon_130900.png" type="image/x-icon">
+        <link rel="stylesheet" href="src/assets/css/styles.css">
+        <title>ProjecteJs</title>
+    </head>
+    <body>
+        
+        <!-- Header -->
+        <header>
+            <div class="main-header">
+                <nav class="nav">
+                    <div class="mTitle">
+                        <a href="#" data-page="posts" class="brand">Projecte Bloc 1.2</a>
+                    </div>
+                    <ul class="nav-right">
+                        <li><a href="#" class="tab" id="posts" data-page="posts">Posts</a></li>
+                        <li><a href="#" class="tab" id="clock" data-page="clock">Clock</a></li>
+                        <li><a href="#" class="tab" id="signIn" data-page="signIn">SignIn</a></li>
+                        <li><a href="#" class="tab" id="quiz" data-page="quiz">Quiz</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <aside class="theme-selector">
+                <div class="theme-picker">
+                    <h3 class="theme-title">Temas</h3>
+                    <div class="theme-colors">
+                        <button class="theme-color-btn active" data-theme="default" aria-label="Tema por defecto">
+                            <span class="theme-preview" style="background: linear-gradient(135deg, #0f0f0f, #1a1a1a);"></span>
+                            <span class="theme-name">Default</span>
+                        </button>
+                        <button class="theme-color-btn" data-theme="dark-purple" aria-label="Tema púrpura oscuro">
+                            <span class="theme-preview" style="background: linear-gradient(135deg, #1e0b36, #311854);"></span>
+                            <span class="theme-name">Dark Purple</span>
+                        </button>
+                        <button class="theme-color-btn" data-theme="blue-dark" aria-label="Tema azul oscuro">
+                            <span class="theme-preview" style="background: linear-gradient(135deg, #0a192f, #112240);"></span>
+                            <span class="theme-name">Blue Dark</span>
+                        </button>
+                        <button class="theme-color-btn" data-theme="green-dark" aria-label="Tema verde oscuro">
+                            <span class="theme-preview" style="background: linear-gradient(135deg, #0d2b1e, #1a3b2b);"></span>
+                            <span class="theme-name">Green Dark</span>
+                        </button>
+                        <button class="theme-color-btn" data-theme="light-mode" aria-label="Tema claro">
+                            <span class="theme-preview" style="background: linear-gradient(135deg, #f8fafc, #e2e8f0);"></span>
+                            <span class="theme-name">Light Mode</span>
+                        </button>
+                    </div>
+                </div>
+            </aside>
+
+        </header>
+
+        <!-- Content -->
+        <main>
+            <div class="contentContainer">
+                <div class="slider" id="slider">
+                    <!-- Imatges Seleccionades -->
+                </div>
+                <div class="tabContent" id="tabContent">
+    
+                </div>
+            </div>
+        </main>
+        <!-- Cat Modal -->
+        <div id="catModal" class="end-modal">
+            <div class="modal-content">
+                <button class="close-btn">✖</button>
+                
+                <h2 class="modal-title" id="modal-cat-name"></h2>
+                <p class="origin" id="modal-cat-origin"></p>
+                
+                <img id="modal-cat-image" />
+                
+                <div class="modal-description" id="modal-cat-description"></div>
+                
+                <ul class="traits" id="modal-cat-traits"></ul>
+            </div>
+        </div>
+        <button id="scrollTopBtn">↑</button>
+        <!-- Footer -->
+        <footer class="footer">
+            <div>
+                <p>&copy; 2026. Tots els drets reservats.</p>
+            </div>
+        </footer>
+        <script type="module" src="src/index.js"></script>
+    </body>
+</html>

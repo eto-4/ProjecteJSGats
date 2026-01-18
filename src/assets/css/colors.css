@@ -1,0 +1,171 @@
+/* 
+ * src/assets/css/colors.css
+ * Variables CSS per als diferents temes de color de l'aplicació
+ * Defineix les variables de color per al tema per defecte i els temes alternatius
+ */
+
+/* ===== VARIABLES DEL TEMA PER DEFECTE (FOSC) ===== */
+:root {
+    /* Colors de fons */
+    --color-bg: #0f0f0f;
+    --color-surface: rgba(30, 30, 30, 0.95);
+    --color-surface-light: rgba(45, 45, 45, 0.8);
+    
+    /* Colors de vores i contorns */
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-border-light: rgba(255, 255, 255, 0.15);
+    --color-border-focus: #a855f7;
+    
+    /* Colors de text */
+    --color-text: #f9fafb;
+    --color-clock-nums: #f9fafb;
+    --color-text-secondary: #9ca3af;
+    --color-text-muted: #6b7280;
+    
+    /* Colors d'estat i feedback */
+    --color-error: #ef4444;
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-info: #3b82f6;
+    
+    /* Colors principals de la interfície */
+    --color-primary: #7c3aed;
+    --color-primary-hover: #6d28d9;
+    --color-secondary: #8b5cf6;
+    --color-accent: #ec4899;
+    
+    /* Colors per a estats inactius */
+    --color-disabled: #4b5563;
+    
+    /* Colors específics per a components */
+    --color-quiz-q-bg: rgba(93, 92, 92, 0.1);
+    --color-quiz-q-label-bg: rgba(93, 92, 92, 0.1);
+}
+
+/* ===== TEMA VIOLA FOSC ===== */
+.theme-dark-purple {
+    /* Tema amb colors viola fosc i tons liles */
+    --color-bg: #1e0b36;
+    --color-surface: rgba(49, 24, 84, 0.95);
+    --color-surface-light: rgba(69, 39, 116, 0.8);
+    
+    --color-border: rgba(255, 255, 255, 0.15);
+    --color-border-light: rgba(255, 255, 255, 0.2);
+    --color-border-focus: #c084fc;
+    
+    --color-text: #f3e8ff;
+    --color-clock-nums: #f3e8ff;
+    --color-text-secondary: #d8b4fe;
+    --color-text-muted: #a78bfa;
+    
+    --color-error: #fb7185;
+    --color-success: #34d399;
+    
+    --color-primary: #c084fc;
+    --color-primary-hover: #a855f7;
+    --color-secondary: #d8b4fe;
+    --color-accent: #f472b6;
+    
+    --color-disabled: #6d5480;
+    --color-warning: #fbbf24;
+    --color-info: #60a5fa;
+    
+    --color-quiz-q-bg: rgba(93, 92, 92, 0.1);
+    --color-quiz-q-label-bg: rgba(93, 92, 92, 0.1);
+}
+
+/* ===== TEMA BLAU FOSC ===== */
+.theme-blue-dark {
+    /* Tema amb colors blau fosc i accents cian */
+    --color-bg: #0a192f;
+    --color-surface: rgba(17, 34, 64, 0.95);
+    --color-surface-light: rgba(30, 58, 110, 0.8);
+    
+    --color-border: rgba(100, 255, 218, 0.1);
+    --color-border-light: rgba(100, 255, 218, 0.15);
+    --color-border-focus: #64ffda;
+    
+    --color-text: #e6f1ff;
+    --color-clock-nums: #e6f1ff;
+    --color-text-secondary: #a8b2d1;
+    --color-text-muted: #8892b0;
+    
+    --color-error: #ff6b6b;
+    --color-success: #4ecdc4;
+    
+    --color-primary: #64ffda;
+    --color-primary-hover: #52d7bb;
+    --color-secondary: #8892b0;
+    --color-accent: #ff6b6b;
+    
+    --color-disabled: #233554;
+    --color-warning: #ffd166;
+    --color-info: #118ab2;
+    
+    --color-quiz-q-bg: rgba(93, 92, 92, 0.1);
+    --color-quiz-q-label-bg: rgba(93, 92, 92, 0.1);
+}
+
+/* ===== TEMA VERD FOSC ===== */
+.theme-green-dark {
+    /* Tema amb colors verd fosc i accents verds brillants */
+    --color-bg: #0d2b1e;
+    --color-surface: rgba(26, 59, 43, 0.95);
+    --color-surface-light: rgba(39, 90, 66, 0.8);
+    
+    --color-border: rgba(52, 211, 153, 0.1);
+    --color-border-light: rgba(52, 211, 153, 0.15);
+    --color-border-focus: #34d399;
+    
+    --color-text: #d1fae5;
+    --color-clock-nums: #d1fae5;
+    --color-text-secondary: #a7f3d0;
+    --color-text-muted: #6ee7b7;
+    
+    --color-error: #f87171;
+    --color-success: #10b981;
+    
+    --color-primary: #34d399;
+    --color-primary-hover: #10b981;
+    --color-secondary: #6ee7b7;
+    --color-accent: #fbbf24;
+    
+    --color-disabled: #065f46;
+    --color-warning: #fbbf24;
+    --color-info: #0ea5e9;
+    
+    --color-quiz-q-bg: rgba(93, 92, 92, 0.1);
+    --color-quiz-q-label-bg: rgba(93, 92, 92, 0.1);
+}
+
+/* ===== TEMA MODE CLAR ===== */
+.theme-light-mode {
+    /* Tema clar amb colors clars i fons blancs */
+    --color-bg: #f8fafc;
+    --color-surface: rgba(246, 246, 246, 0.95);
+    --color-surface-light: rgba(241, 245, 249, 0.8);
+    
+    --color-border: rgba(15, 23, 42, 0.1);
+    --color-border-light: rgba(15, 23, 42, 0.15);
+    --color-border-focus: #3b82f6;
+    
+    --color-text: #4d4d4d;
+    --color-clock-nums: #f9fafb;
+    --color-text-secondary: #475569;
+    --color-text-muted: #94a3b8;
+    
+    --color-error: #ef4444;
+    --color-success: #10b981;
+    
+    --color-primary: #3b82f6;
+    --color-primary-hover: #2563eb;
+    --color-secondary: #8b5cf6;
+    --color-accent: #ec4899;
+    
+    --color-disabled: #cbd5e1;
+    --color-warning: #f59e0b;
+    --color-info: #0ea5e9;
+    
+    --color-quiz-q-bg: rgba(206, 208, 212, 0.3);
+    --color-quiz-q-label-bg: rgba(93, 92, 92, 0.1);
+}

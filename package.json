@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "projecte": "vite"
+  },
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
+  },
+  "devDependencies": {
+    "vite": "^7.3.0"
+  }
+}
